@@ -1,0 +1,112 @@
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\bin\Debug\LoginCobaCoba.exe.config
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\bin\Debug\LoginCobaCoba.exe
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\bin\Debug\LoginCobaCoba.pdb
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.Form1.resources
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.Properties.Resources.resources
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.GenerateResource.cache
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CoreCompileInputs.cache
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.exe
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.pdb
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.csprojAssemblyReference.cache
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.Dashboard.resources
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.Form2.resources
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.Skills.resources
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.Form3.resources
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.Form4.resources
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.Form10.resources
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.Form11.resources
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.Form5.resources
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.Form6.resources
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.Form7.resources
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.Form8.resources
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.Form9.resources
+C:\Users\Dhimas\source\repos\LoginCobaCoba\LoginCobaCoba\obj\Debug\LoginCobaCoba.Form12.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\bin\Debug\LoginCobaCoba.exe.config
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\bin\Debug\LoginCobaCoba.exe
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\bin\Debug\LoginCobaCoba.pdb
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.csprojAssemblyReference.cache
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Dashboard.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Login.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Properties.Resources.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Skills.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.GenerateResource.cache
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CoreCompileInputs.cache
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.exe
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.pdb
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Home.resources
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\bin\Debug\Database1.mdf
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\bin\Debug\Database1_log.ldf
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\bin\Debug\LoginCobaCoba.exe.config
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\bin\Debug\LoginCobaCoba.exe
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\bin\Debug\LoginCobaCoba.pdb
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.csprojAssemblyReference.cache
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Dashboard.resources
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Login.resources
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.VerifEmail.resources
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Register.resources
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Profile.resources
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Home.resources
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Skill.resources
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Tasks.resources
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.SkillsResume.resources
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Lomba.resources
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.LowonganKerja.resources
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Event.resources
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.LoadMore.resources
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Properties.Resources.resources
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Skills.resources
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.GenerateResource.cache
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CoreCompileInputs.cache
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.exe
+C:\Users\Farhan\Downloads\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.pdb
+D:\firhan\kuliah\Proyek\LoginCobaCoba\bin\Debug\Database1.mdf
+D:\firhan\kuliah\Proyek\LoginCobaCoba\bin\Debug\Database1_log.ldf
+D:\firhan\kuliah\Proyek\LoginCobaCoba\bin\Debug\LoginCobaCoba.exe.config
+D:\firhan\kuliah\Proyek\LoginCobaCoba\bin\Debug\LoginCobaCoba.exe
+D:\firhan\kuliah\Proyek\LoginCobaCoba\bin\Debug\LoginCobaCoba.pdb
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.csprojAssemblyReference.cache
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Dashboard.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Login.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.VerifEmail.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Register.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Profile.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Home.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Skill.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Tasks.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.SkillsResume.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Lomba.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.LowonganKerja.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Event.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.LoadMore.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Properties.Resources.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Skills.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.GenerateResource.cache
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CoreCompileInputs.cache
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.exe
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.pdb
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.coba_HOME.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.fearhunt_coba.resources
+D:\firhan\kuliah\Proyek\LoginCobaCoba\bin\Debug\EntityFramework.dll
+D:\firhan\kuliah\Proyek\LoginCobaCoba\bin\Debug\EntityFramework.SqlServer.dll
+D:\firhan\kuliah\Proyek\LoginCobaCoba\bin\Debug\EntityFramework.xml
+D:\firhan\kuliah\Proyek\LoginCobaCoba\bin\Debug\EntityFramework.SqlServer.xml
+D:\firhan\kuliah\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CopyComplete
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\bin\Debug\Database1.mdf
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\bin\Debug\Database1_log.ldf
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\bin\Debug\EntityFramework.dll
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\bin\Debug\EntityFramework.SqlServer.dll
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\bin\Debug\EntityFramework.xml
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\bin\Debug\EntityFramework.SqlServer.xml
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.coba_HOME.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.fearhunt_coba.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.VerifEmail.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Register.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Profile.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Skill.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Tasks.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.SkillsResume.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Lomba.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.LowonganKerja.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.Event.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.LoadMore.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\Proyek\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CopyComplete
