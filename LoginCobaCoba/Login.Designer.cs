@@ -36,8 +36,8 @@
             this.garis1 = new System.Windows.Forms.Panel();
             this.garis2 = new System.Windows.Forms.Panel();
             this.password = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.unameBox = new System.Windows.Forms.TextBox();
+            this.passBox = new System.Windows.Forms.TextBox();
             this.close = new System.Windows.Forms.Label();
             this.lupapass = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -121,31 +121,31 @@
             this.password.TabIndex = 7;
             this.password.Text = "password";
             // 
-            // textBox1
+            // unameBox
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(403, 196);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(337, 19);
-            this.textBox1.TabIndex = 9;
-            this.textBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox1_MouseClick);
-            this.textBox1.MouseEnter += new System.EventHandler(this.textBox1_MouseEnter);
-            this.textBox1.MouseLeave += new System.EventHandler(this.textBox1_MouseLeave);
+            this.unameBox.BackColor = System.Drawing.Color.White;
+            this.unameBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.unameBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.unameBox.Location = new System.Drawing.Point(403, 196);
+            this.unameBox.Name = "unameBox";
+            this.unameBox.Size = new System.Drawing.Size(337, 19);
+            this.unameBox.TabIndex = 9;
+            this.unameBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox1_MouseClick);
+            this.unameBox.MouseEnter += new System.EventHandler(this.textBox1_MouseEnter);
+            this.unameBox.MouseLeave += new System.EventHandler(this.textBox1_MouseLeave);
             // 
-            // textBox2
+            // passBox
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(403, 269);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(337, 19);
-            this.textBox2.TabIndex = 10;
-            this.textBox2.UseSystemPasswordChar = true;
-            this.textBox2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox2_MouseClick);
-            this.textBox2.MouseEnter += new System.EventHandler(this.textBox2_MouseEnter);
+            this.passBox.BackColor = System.Drawing.Color.White;
+            this.passBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.passBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passBox.Location = new System.Drawing.Point(403, 269);
+            this.passBox.Name = "passBox";
+            this.passBox.Size = new System.Drawing.Size(337, 19);
+            this.passBox.TabIndex = 10;
+            this.passBox.UseSystemPasswordChar = true;
+            this.passBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox2_MouseClick);
+            this.passBox.MouseEnter += new System.EventHandler(this.textBox2_MouseEnter);
             // 
             // close
             // 
@@ -223,8 +223,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lupapass);
             this.Controls.Add(this.close);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.passBox);
+            this.Controls.Add(this.unameBox);
             this.Controls.Add(this.garis2);
             this.Controls.Add(this.password);
             this.Controls.Add(this.garis1);
@@ -253,8 +253,8 @@
         private System.Windows.Forms.Panel garis1;
         private System.Windows.Forms.Panel garis2;
         private System.Windows.Forms.Label password;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox unameBox;
+        private System.Windows.Forms.TextBox passBox;
         private System.Windows.Forms.Label close;
         private System.Windows.Forms.Label lupapass;
         private System.Windows.Forms.Label label1;

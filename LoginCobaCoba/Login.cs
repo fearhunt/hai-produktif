@@ -101,7 +101,7 @@ namespace LoginCobaCoba
 
         private void roundButton1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "" || textBox2.Text == "")
+            if (unameBox.Text == "" || passBox.Text == "")
             {
                 MessageBox.Show("Masukkan username dan password terlebih dahulu!");
             }
@@ -109,16 +109,23 @@ namespace LoginCobaCoba
             {
                 using (var db = new AkunModel())
                 {
-                    var query = from akun in db.Akun where akun.Uname == textBox1.Text select akun;
-                    if (query != null) // masih error di sini buat login. coba pakai try except
+                    var query = (from akun in db.Akun where akun.Uname == unameBox.Text select akun).FirstOrDefault();
+                    if (query == null) //check if query null
                     {
+                        MessageBox.Show("Data tidak ada!");
+                        unameBox.Text = "";
+                        passBox.Text = "";
+                    }
+                    else if ((query.Uname == unameBox.Text) && (query.Pass == passBox.Text)) // masih error di sini buat login. coba pakai try except
+                    { 
                         this.Visible = false;
                         fearhunt_coba dashboard = new fearhunt_coba();
                         dashboard.ShowDialog();
                     }
-                    else if (query == null)
+                    else if ((query.Uname == unameBox.Text) && (query.Pass != passBox.Text))
                     {
-                        MessageBox.Show("Data tidak ada!");
+                        MessageBox.Show("Password yang dimasukkan salah!");
+                        passBox.Text = "";
                     }
                 }
             }

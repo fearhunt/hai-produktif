@@ -37,8 +37,8 @@
             this.button4 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.roundButton1 = new LoginCobaCoba.RoundButton();
             this.coba_HOME1 = new LoginCobaCoba.coba_HOME();
+            this.roundButton1 = new LoginCobaCoba.RoundButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -170,6 +170,15 @@
             this.label5.Text = "Dhimas Aji";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // coba_HOME1
+            // 
+            this.coba_HOME1.AutoScroll = true;
+            this.coba_HOME1.BackColor = System.Drawing.Color.White;
+            this.coba_HOME1.Location = new System.Drawing.Point(200, 0);
+            this.coba_HOME1.Name = "coba_HOME1";
+            this.coba_HOME1.Size = new System.Drawing.Size(585, 475);
+            this.coba_HOME1.TabIndex = 1;
+            // 
             // roundButton1
             // 
             this.roundButton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("roundButton1.BackgroundImage")));
@@ -183,15 +192,6 @@
             this.roundButton1.TabIndex = 1;
             this.roundButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.roundButton1.UseVisualStyleBackColor = true;
-            // 
-            // coba_HOME1
-            // 
-            this.coba_HOME1.AutoScroll = true;
-            this.coba_HOME1.BackColor = System.Drawing.Color.White;
-            this.coba_HOME1.Location = new System.Drawing.Point(200, 0);
-            this.coba_HOME1.Name = "coba_HOME1";
-            this.coba_HOME1.Size = new System.Drawing.Size(585, 475);
-            this.coba_HOME1.TabIndex = 1;
             // 
             // fearhunt_coba
             // 
