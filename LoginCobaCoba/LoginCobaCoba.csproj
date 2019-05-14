@@ -79,26 +79,12 @@
   <ItemGroup>
     <Compile Include="Akun.cs" />
     <Compile Include="AkunModel.cs" />
-    <Compile Include="coba HOME.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="coba HOME.Designer.cs">
-      <DependentUpon>coba HOME.cs</DependentUpon>
-    </Compile>
-    <Compile Include="fearhunt coba.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fearhunt coba.Designer.cs">
-      <DependentUpon>fearhunt coba.cs</DependentUpon>
-    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Table.cs" />
-    <Compile Include="Table2.cs" />
     <Compile Include="VerifEmail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,18 +156,6 @@
     <Compile Include="RoundButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Skills.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Skills.Designer.cs">
-      <DependentUpon>Skills.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="coba HOME.resx">
-      <DependentUpon>coba HOME.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="fearhunt coba.resx">
-      <DependentUpon>fearhunt coba.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -227,9 +201,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Skills.resx">
-      <DependentUpon>Skills.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

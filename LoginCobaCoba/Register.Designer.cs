@@ -62,7 +62,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(355, 491);
+            this.panel1.Size = new System.Drawing.Size(355, 513);
             this.panel1.TabIndex = 2;
             // 
             // title2
@@ -287,7 +287,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(801, 491);
+            this.ClientSize = new System.Drawing.Size(800, 513);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.roundButton1);
             this.Controls.Add(this.textBox7);

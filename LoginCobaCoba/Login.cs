@@ -118,8 +118,8 @@ namespace LoginCobaCoba
                     }
                     else if ((query.Uname == unameBox.Text) && (query.Pass == passBox.Text)) // masih error di sini buat login. coba pakai try except
                     { 
-                        this.Visible = false;
-                        fearhunt_coba dashboard = new fearhunt_coba();
+                        this.Visible = false;       
+                        Home dashboard = new Home();
                         dashboard.ShowDialog();
                     }
                     else if ((query.Uname == unameBox.Text) && (query.Pass != passBox.Text))

@@ -13,8 +13,6 @@ namespace LoginCobaCoba
         }
 
         public virtual DbSet<Akun> Akun { get; set; }
-        public virtual DbSet<Table> Table { get; set; }
-        public virtual DbSet<Table2> Table2 { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

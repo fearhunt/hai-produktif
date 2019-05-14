@@ -53,5 +53,12 @@ namespace LoginCobaCoba
         {
             Application.ExitThread();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            LoadMore load = new LoadMore();
+            load.ShowDialog();
+        }
     }
 }

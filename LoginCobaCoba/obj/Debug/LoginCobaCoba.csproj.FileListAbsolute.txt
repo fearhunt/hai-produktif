@@ -120,8 +120,6 @@ D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.xml
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.SqlServer.xml
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csprojAssemblyReference.cache
-D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.coba_HOME.resources
-D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.fearhunt_coba.resources
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Login.resources
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.VerifEmail.resources
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Register.resources
@@ -135,7 +133,6 @@ D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Event.resources
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LoadMore.resources
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Properties.Resources.resources
-D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Skills.resources
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.GenerateResource.cache
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CoreCompileInputs.cache
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CopyComplete
