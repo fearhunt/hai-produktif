@@ -15,6 +15,8 @@ namespace LoginCobaCoba
         public Home()
         {
             InitializeComponent();
+            lblName.Text = Data.first_name + " " + Data.last_name;
+            lblUser.Text = Data.uname;
         }
 
         //Point panel3
@@ -59,6 +61,60 @@ namespace LoginCobaCoba
             this.Visible = false;
             LoadMore load = new LoadMore();
             load.ShowDialog();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+            Environment.Exit(0);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            //this.Hide();
+            this.Visible = false;
+            Skill skill = new Skill();
+            skill.ShowDialog();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Tasks task = new Tasks();
+            task.ShowDialog();
+        }
+
+        Data data = new Data();
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            data.Lomba(label8.Text);
+            FormLomba lomba = new FormLomba();
+            this.Visible = false;
+            lomba.ShowDialog();
+        }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+            data.Event(label17.Text);
+            FormEvent agenda = new FormEvent();
+            this.Visible = false;
+            agenda.ShowDialog();
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            data.Loker(label11.Text);
+            LowonganKerja loker = new LowonganKerja();
+            this.Visible = false;
+            loker.ShowDialog();
+        }
+
+        private void roundButton1_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Profile profile = new Profile();
+            profile.ShowDialog();
         }
     }
 }

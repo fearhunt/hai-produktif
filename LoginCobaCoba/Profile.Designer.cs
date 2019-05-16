@@ -65,7 +65,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(355, 491);
+            this.panel1.Size = new System.Drawing.Size(355, 513);
             this.panel1.TabIndex = 3;
             // 
             // title2
@@ -113,7 +113,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(355, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(446, 491);
+            this.panel2.Size = new System.Drawing.Size(445, 513);
             this.panel2.TabIndex = 4;
             // 
             // pictureBox2
@@ -125,13 +125,14 @@
             this.pictureBox2.Size = new System.Drawing.Size(33, 23);
             this.pictureBox2.TabIndex = 79;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // panel3
             // 
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel3.Location = new System.Drawing.Point(0, 532);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(429, 66);
+            this.panel3.Size = new System.Drawing.Size(428, 66);
             this.panel3.TabIndex = 78;
             // 
             // button1
@@ -177,9 +178,9 @@
             this.label10.Location = new System.Drawing.Point(56, 399);
             this.label10.Margin = new System.Windows.Forms.Padding(0, 4, 0, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(78, 18);
+            this.label10.Size = new System.Drawing.Size(63, 18);
             this.label10.TabIndex = 75;
-            this.label10.Text = "dhimasaji_";
+            this.label10.Text = "(uname)";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label9
@@ -203,9 +204,9 @@
             this.label7.Location = new System.Drawing.Point(56, 343);
             this.label7.Margin = new System.Windows.Forms.Padding(0, 4, 0, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(160, 18);
+            this.label7.Size = new System.Drawing.Size(53, 18);
             this.label7.TabIndex = 73;
-            this.label7.Text = "dhimasaji@mail.ugm.id";
+            this.label7.Text = "(email)";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label4
@@ -217,9 +218,9 @@
             this.label4.Location = new System.Drawing.Point(56, 289);
             this.label4.Margin = new System.Windows.Forms.Padding(0, 4, 0, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(104, 18);
+            this.label4.Size = new System.Drawing.Size(59, 18);
             this.label4.TabIndex = 72;
-            this.label4.Text = "082143093077";
+            this.label4.Text = "(phone)";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label3
@@ -231,9 +232,9 @@
             this.label3.Location = new System.Drawing.Point(56, 236);
             this.label3.Margin = new System.Windows.Forms.Padding(0, 4, 0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 18);
+            this.label3.Size = new System.Drawing.Size(110, 18);
             this.label3.TabIndex = 71;
-            this.label3.Text = "Dhimas Aji";
+            this.label3.Text = "(first last name)";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label6
@@ -245,9 +246,9 @@
             this.label6.Location = new System.Drawing.Point(232, 139);
             this.label6.Margin = new System.Windows.Forms.Padding(0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(73, 16);
+            this.label6.Size = new System.Drawing.Size(49, 16);
             this.label6.TabIndex = 70;
-            this.label6.Text = "dhimasaji_";
+            this.label6.Text = "uname";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label5
@@ -258,14 +259,14 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.label5.Location = new System.Drawing.Point(231, 117);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(105, 22);
+            this.label5.Size = new System.Drawing.Size(151, 22);
             this.label5.TabIndex = 69;
-            this.label5.Text = "Dhimas Aji";
+            this.label5.Text = "First Last Name";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImage = global::LoginCobaCoba.Properties.Resources.default_profile_mentor_rounded_2x_70dc0c67;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Location = new System.Drawing.Point(60, 64);
             this.pictureBox1.Name = "pictureBox1";
@@ -332,6 +333,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Profile";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form12";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

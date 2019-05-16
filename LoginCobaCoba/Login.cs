@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -16,7 +17,7 @@ namespace LoginCobaCoba
         {
             InitializeComponent();
         }
-
+        
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -24,7 +25,7 @@ namespace LoginCobaCoba
 
         private void label1_Click_1(object sender, EventArgs e)
         {
-            this.Close();
+            Application.ExitThread();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -107,7 +108,7 @@ namespace LoginCobaCoba
             }
             else
             {
-                using (var db = new AkunModel())
+                using (var db = new DBModel())
                 {
                     var query = (from akun in db.Akun where akun.Uname == unameBox.Text select akun).FirstOrDefault();
                     if (query == null) //check if query null
@@ -117,7 +118,9 @@ namespace LoginCobaCoba
                         passBox.Text = "";
                     }
                     else if ((query.Uname == unameBox.Text) && (query.Pass == passBox.Text)) // masih error di sini buat login. coba pakai try except
-                    { 
+                    {
+                        Data data = new Data();
+                        data.dataProfil(query.First_Name, query.Last_Name, query.Email, query.Phone, query.Uname);
                         this.Visible = false;       
                         Home dashboard = new Home();
                         dashboard.ShowDialog();
@@ -129,6 +132,13 @@ namespace LoginCobaCoba
                     }
                 }
             }
+        }
+
+        private void label1_Click_2(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Register register = new Register();
+            register.ShowDialog();
         }
     }
 }

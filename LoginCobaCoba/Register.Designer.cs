@@ -263,6 +263,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(33, 23);
             this.pictureBox2.TabIndex = 62;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // roundButton1
             // 
@@ -307,6 +308,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Register";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form11";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

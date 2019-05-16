@@ -46,11 +46,11 @@
             // 
             this.login.AutoSize = true;
             this.login.BackColor = System.Drawing.Color.Transparent;
-            this.login.Font = new System.Drawing.Font("AXIS Extra Bold", 25F, System.Drawing.FontStyle.Bold);
+            this.login.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold);
             this.login.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.login.Location = new System.Drawing.Point(526, 96);
             this.login.Name = "login";
-            this.login.Size = new System.Drawing.Size(224, 82);
+            this.login.Size = new System.Drawing.Size(160, 78);
             this.login.TabIndex = 3;
             this.login.Text = "verifikasi\r\nemail\r\n";
             this.login.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -59,10 +59,10 @@
             // 
             this.textBox1.BackColor = System.Drawing.Color.White;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(401, 238);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(337, 22);
+            this.textBox1.Size = new System.Drawing.Size(337, 19);
             this.textBox1.TabIndex = 12;
             // 
             // garis1
@@ -77,11 +77,11 @@
             // 
             this.username.AutoSize = true;
             this.username.BackColor = System.Drawing.Color.Transparent;
-            this.username.Font = new System.Drawing.Font("AXIS Extra Bold", 10F, System.Drawing.FontStyle.Bold);
+            this.username.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.username.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.username.Location = new System.Drawing.Point(398, 211);
             this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(56, 17);
+            this.username.Size = new System.Drawing.Size(46, 17);
             this.username.TabIndex = 10;
             this.username.Text = "email";
             // 
@@ -110,17 +110,17 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(355, 530);
+            this.panel1.Size = new System.Drawing.Size(355, 513);
             this.panel1.TabIndex = 14;
             // 
             // title2
             // 
             this.title2.AutoSize = true;
-            this.title2.Font = new System.Drawing.Font("AXIS Extra Bold", 12.5F, System.Drawing.FontStyle.Bold);
+            this.title2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.5F, System.Drawing.FontStyle.Bold);
             this.title2.ForeColor = System.Drawing.Color.White;
             this.title2.Location = new System.Drawing.Point(110, 212);
             this.title2.Name = "title2";
-            this.title2.Size = new System.Drawing.Size(152, 40);
+            this.title2.Size = new System.Drawing.Size(117, 40);
             this.title2.TabIndex = 3;
             this.title2.Text = "ayo produktif\r\nhari ini\r\n";
             this.title2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -128,11 +128,11 @@
             // title1
             // 
             this.title1.AutoSize = true;
-            this.title1.Font = new System.Drawing.Font("AXIS Extra Bold", 50F, System.Drawing.FontStyle.Bold);
+            this.title1.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Bold);
             this.title1.ForeColor = System.Drawing.Color.White;
             this.title1.Location = new System.Drawing.Point(100, 139);
             this.title1.Name = "title1";
-            this.title1.Size = new System.Drawing.Size(183, 80);
+            this.title1.Size = new System.Drawing.Size(168, 76);
             this.title1.TabIndex = 2;
             this.title1.Text = "HAI!";
             // 
@@ -146,7 +146,7 @@
             this.pictureBox2.TabIndex = 61;
             this.pictureBox2.TabStop = false;
             // 
-            // Form10
+            // VerifEmail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -160,7 +160,8 @@
             this.Controls.Add(this.username);
             this.Controls.Add(this.login);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form10";
+            this.Name = "VerifEmail";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form10";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

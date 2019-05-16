@@ -78,13 +78,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Akun.cs" />
-    <Compile Include="AkunModel.cs" />
+    <Compile Include="Data.cs" />
+    <Compile Include="DBModel.cs" />
+    <Compile Include="Event.cs" />
+    <Compile Include="FormEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEvent.designer.cs">
+      <DependentUpon>FormEvent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Loker.cs" />
+    <Compile Include="FormLomba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLomba.Designer.cs">
+      <DependentUpon>FormLomba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lomba.cs" />
     <Compile Include="VerifEmail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,23 +143,11 @@
     <Compile Include="SkillsResume.Designer.cs">
       <DependentUpon>SkillsResume.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lomba.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Lomba.Designer.cs">
-      <DependentUpon>Lomba.cs</DependentUpon>
-    </Compile>
     <Compile Include="LowonganKerja.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LowonganKerja.Designer.cs">
       <DependentUpon>LowonganKerja.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Event.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Event.Designer.cs">
-      <DependentUpon>Event.cs</DependentUpon>
     </Compile>
     <Compile Include="LoadMore.cs">
       <SubType>Form</SubType>
@@ -156,8 +160,14 @@
     <Compile Include="RoundButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <EmbeddedResource Include="FormEvent.resx">
+      <DependentUpon>FormEvent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLomba.resx">
+      <DependentUpon>FormLomba.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VerifEmail.resx">
       <DependentUpon>VerifEmail.cs</DependentUpon>
@@ -180,14 +190,8 @@
     <EmbeddedResource Include="SkillsResume.resx">
       <DependentUpon>SkillsResume.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lomba.resx">
-      <DependentUpon>Lomba.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="LowonganKerja.resx">
       <DependentUpon>LowonganKerja.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Event.resx">
-      <DependentUpon>Event.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoadMore.resx">
       <DependentUpon>LoadMore.cs</DependentUpon>
@@ -200,6 +204,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -235,6 +240,25 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\18.png" />
+    <None Include="Resources\17.png" />
+    <None Include="Resources\16.png" />
+    <None Include="Resources\15.png" />
+    <None Include="Resources\14.png" />
+    <None Include="Resources\13.png" />
+    <None Include="Resources\12.png" />
+    <None Include="Resources\11.png" />
+    <None Include="Resources\10.png" />
+    <None Include="Resources\9.png" />
+    <None Include="Resources\8.png" />
+    <None Include="Resources\7.png" />
+    <None Include="Resources\6.png" />
+    <None Include="Resources\5.png" />
+    <None Include="Resources\4.png" />
+    <None Include="Resources\3.png" />
+    <None Include="Resources\2.png" />
+    <None Include="Resources\1.png" />
+    <None Include="Resources\default-profile-mentor-rounded%402x.70dc0c67.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -192,6 +192,7 @@
             this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 13;
             this.label1.Text = "register";
+            this.label1.Click += new System.EventHandler(this.label1_Click_2);
             this.label1.MouseLeave += new System.EventHandler(this.label1_MouseLeave);
             this.label1.MouseHover += new System.EventHandler(this.label1_MouseHover);
             // 
@@ -234,6 +235,7 @@
             this.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);

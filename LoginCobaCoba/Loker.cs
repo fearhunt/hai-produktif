@@ -6,8 +6,8 @@ namespace LoginCobaCoba
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    [Table("Lomba")]
-    public partial class Lomba
+    [Table("Loker")]
+    public partial class Loker
     {
         [Key]
         [StringLength(50)]
@@ -21,18 +21,18 @@ namespace LoginCobaCoba
         public DateTime Published { get; set; }
 
         [Required]
-        [StringLength(300)]
+        [StringLength(200)]
         public string Desc { get; set; }
 
         [Column(TypeName = "date")]
-        public DateTime Deadline { get; set; }
-
-        [Required]
-        [StringLength(20)]
-        public string CP { get; set; }
+        public DateTime Applied { get; set; }
 
         [Required]
         [StringLength(40)]
         public string Note { get; set; }
+
+        [Required]
+        [StringLength(10)]
+        public string Status { get; set; }
     }
 }
