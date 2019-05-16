@@ -1,20 +1,38 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
 namespace LoginCobaCoba
 {
-    public partial class Event : Form
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
+    using System.Data.Entity.Spatial;
+
+    [Table("Event")]
+    public partial class Event
     {
-        public Event()
-        {
-            InitializeComponent();
-        }
+        [Key]
+        [StringLength(50)]
+        public string Name { get; set; }
+
+        [Required]
+        [StringLength(20)]
+        public string Auth { get; set; }
+
+        [Column(TypeName = "date")]
+        public DateTime Published { get; set; }
+
+        [Required]
+        [StringLength(400)]
+        public string Desc { get; set; }
+
+        [Column(TypeName = "date")]
+        public DateTime Date { get; set; }
+
+        [Required]
+        [StringLength(40)]
+        public string Note { get; set; }
+
+        [Required]
+        [StringLength(10)]
+        public string Status { get; set; }
     }
 }
