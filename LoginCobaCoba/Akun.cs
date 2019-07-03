@@ -9,7 +9,8 @@ namespace LoginCobaCoba
     [Table("Akun")]
     public partial class Akun
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [Required]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         [Required]
