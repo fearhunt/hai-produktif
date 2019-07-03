@@ -119,7 +119,6 @@ D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.SqlServer.dll
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.xml
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.SqlServer.xml
-D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csprojAssemblyReference.cache
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Login.resources
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.VerifEmail.resources
 D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Register.resources
@@ -162,9 +161,7 @@ D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Home.resour
 D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Skill.resources
 D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Tasks.resources
 D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.SkillsResume.resources
-D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Lomba.resources
 D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LowonganKerja.resources
-D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Event.resources
 D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LoadMore.resources
 D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Properties.Resources.resources
 D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.GenerateResource.cache
@@ -238,3 +235,170 @@ E:\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CoreCompileInputs.
 E:\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CopyComplete
 E:\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.exe
 E:\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.pdb
+D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.FormEvent.resources
+D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.FormLomba.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csprojAssemblyReference.cache
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\bin\Debug\Database1.mdf
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\bin\Debug\Database1_log.ldf
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\bin\Debug\LoginCobaCoba.exe.config
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\bin\Debug\LoginCobaCoba.exe
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\bin\Debug\LoginCobaCoba.pdb
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.dll
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.SqlServer.dll
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\bin\Debug\Newtonsoft.Json.dll
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\bin\Debug\RestSharp.dll
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.xml
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.SqlServer.xml
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\bin\Debug\Newtonsoft.Json.xml
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\bin\Debug\RestSharp.xml
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csprojAssemblyReference.cache
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.FormEvent.resources
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.GantiPassword.resources
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Login.resources
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.FormLomba.resources
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.VerifEmail.resources
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Register.resources
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Profile.resources
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Home.resources
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Skill.resources
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Tasks.resources
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.SkillsResume.resources
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LowonganKerja.resources
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LoadMore.resources
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Properties.Resources.resources
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.GenerateResource.cache
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CoreCompileInputs.cache
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CopyComplete
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.exe
+D:\DHIMAS\pbo\baru banget\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.pdb
+D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.GantiPassword.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\bin\Debug\Database1.mdf
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\bin\Debug\Database1_log.ldf
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\bin\Debug\LoginCobaCoba.exe.config
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\bin\Debug\LoginCobaCoba.exe
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\bin\Debug\LoginCobaCoba.pdb
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.dll
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\bin\Debug\RestSharp.dll
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.xml
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\bin\Debug\RestSharp.xml
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csprojAssemblyReference.cache
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.FormEvent.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.GantiPassword.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Login.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.FormLomba.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.VerifEmail.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Register.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Profile.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Home.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Skill.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Tasks.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.SkillsResume.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LowonganKerja.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LoadMore.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Properties.Resources.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.GenerateResource.cache
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CoreCompileInputs.cache
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CopyComplete
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.exe
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.pdb
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\bin\Debug\Database1.mdf
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\bin\Debug\Database1_log.ldf
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\bin\Debug\LoginCobaCoba.exe.config
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\bin\Debug\LoginCobaCoba.exe
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\bin\Debug\LoginCobaCoba.pdb
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.dll
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.SqlServer.dll
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\bin\Debug\Newtonsoft.Json.dll
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\bin\Debug\RestSharp.dll
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.xml
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.SqlServer.xml
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\bin\Debug\Newtonsoft.Json.xml
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\bin\Debug\RestSharp.xml
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csprojAssemblyReference.cache
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.FormEvent.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.GantiPassword.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Login.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.FormLomba.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.VerifEmail.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Register.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Profile.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Home.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Skill.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Tasks.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.SkillsResume.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LowonganKerja.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LoadMore.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Properties.Resources.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.GenerateResource.cache
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CoreCompileInputs.cache
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CopyComplete
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.exe
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.pdb
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.EventEditor.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LokerEditor.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LombaEditor.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.ProfileEditor.resources
+D:\DHIMAS\pbo\baru banget bgt\y\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.SkillEditor.resources
+D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LokerEditor.resources
+D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LombaEditor.resources
+D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.ProfileEditor.resources
+D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.SkillEditor.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.GantiPassword.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.ProfileEditor.resources
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.SkillEditor.resources
+D:\firhan\kuliah\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.EditForm.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.EditForm.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.EventEditor.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LokerEditor.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LombaEditor.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.ProfileEditor.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.SkillEditor.resources
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\bin\Debug\GemBox.Email.dll
+C:\Users\GF63\Videos\hai-produktif\LoginCobaCoba\bin\Debug\GemBox.Email.xml
+D:\firhan\kuliah\hai-produktif\LoginCobaCoba\bin\Debug\GemBox.Email.dll
+D:\firhan\kuliah\hai-produktif\LoginCobaCoba\bin\Debug\GemBox.Email.xml
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\bin\Debug\GemBox.Email.dll
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\bin\Debug\GemBox.Email.xml
+D:\Kuliah\UGM\Semester II\Program Berorientasi Objek\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.EditForm.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\bin\Debug\Database1.mdf
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\bin\Debug\Database1_log.ldf
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\bin\Debug\LoginCobaCoba.exe.config
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\bin\Debug\LoginCobaCoba.exe
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\bin\Debug\LoginCobaCoba.pdb
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.dll
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\bin\Debug\GemBox.Email.dll
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\bin\Debug\RestSharp.dll
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.xml
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\bin\Debug\GemBox.Email.xml
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\bin\Debug\RestSharp.xml
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csprojAssemblyReference.cache
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.EditForm.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.FormEvent.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.GantiPassword.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Login.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.FormLomba.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.ProfileEditor.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.SkillEditor.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.VerifEmail.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Register.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Profile.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Home.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Skill.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Tasks.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.SkillsResume.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LowonganKerja.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.LoadMore.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.Properties.Resources.resources
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.GenerateResource.cache
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CoreCompileInputs.cache
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.csproj.CopyComplete
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.exe
+C:\Users\GF63\Pictures\hai-produktif\LoginCobaCoba\obj\Debug\LoginCobaCoba.pdb
