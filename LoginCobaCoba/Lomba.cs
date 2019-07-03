@@ -32,7 +32,7 @@ namespace LoginCobaCoba
         public string CP { get; set; }
 
         [Required]
-        [StringLength(40)]
-        public string Note { get; set; }
+        [StringLength(15)]
+        public string Minat { get; set; }
     }
 }

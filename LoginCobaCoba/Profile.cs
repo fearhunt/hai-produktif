@@ -15,6 +15,8 @@ namespace LoginCobaCoba
         public Profile()
         {
             InitializeComponent();
+
+            // Menampilkan data user
             label5.Text = Data.first_name + " " + Data.last_name;
             label6.Text = Data.uname;
             label3.Text = label5.Text;
@@ -23,21 +25,28 @@ namespace LoginCobaCoba
             label10.Text = label6.Text;
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void roundButton1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        // Kembali ke menu Home
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Visible = false;
             Home home = new Home();
             home.ShowDialog();
+        }
+
+        // Membuka form GantiPassword
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            GantiPassword pass = new GantiPassword();
+            pass.ShowDialog();
+        }
+
+        // Membuka form ProfileEditor
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            ProfileEditor profiledit = new ProfileEditor();
+            profiledit.ShowDialog();
         }
     }
 }

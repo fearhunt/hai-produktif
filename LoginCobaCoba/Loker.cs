@@ -24,15 +24,10 @@ namespace LoginCobaCoba
         [StringLength(200)]
         public string Desc { get; set; }
 
-        [Column(TypeName = "date")]
-        public DateTime Applied { get; set; }
+        [StringLength(200)]
+        public string Criteria { get; set; }
 
-        [Required]
-        [StringLength(40)]
-        public string Note { get; set; }
-
-        [Required]
         [StringLength(10)]
-        public string Status { get; set; }
+        public string Minat { get; set; }
     }
 }

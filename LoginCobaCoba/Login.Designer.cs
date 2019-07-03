@@ -42,6 +42,7 @@
             this.lupapass = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.roundButton1 = new LoginCobaCoba.RoundButton();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,7 +80,6 @@
             this.title1.Size = new System.Drawing.Size(168, 76);
             this.title1.TabIndex = 0;
             this.title1.Text = "HAI!";
-            this.title1.Click += new System.EventHandler(this.label1_Click);
             // 
             // username
             // 
@@ -89,9 +89,9 @@
             this.username.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.username.Location = new System.Drawing.Point(400, 169);
             this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(79, 17);
+            this.username.Size = new System.Drawing.Size(81, 17);
             this.username.TabIndex = 3;
-            this.username.Text = "username";
+            this.username.Text = "Username";
             // 
             // garis1
             // 
@@ -117,9 +117,9 @@
             this.password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.password.Location = new System.Drawing.Point(400, 242);
             this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(76, 17);
+            this.password.Size = new System.Drawing.Size(77, 17);
             this.password.TabIndex = 7;
-            this.password.Text = "password";
+            this.password.Text = "Password";
             // 
             // unameBox
             // 
@@ -130,9 +130,8 @@
             this.unameBox.Name = "unameBox";
             this.unameBox.Size = new System.Drawing.Size(337, 19);
             this.unameBox.TabIndex = 9;
-            this.unameBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox1_MouseClick);
-            this.unameBox.MouseEnter += new System.EventHandler(this.textBox1_MouseEnter);
-            this.unameBox.MouseLeave += new System.EventHandler(this.textBox1_MouseLeave);
+            this.unameBox.Enter += new System.EventHandler(this.UnameBox_Enter);
+            this.unameBox.Leave += new System.EventHandler(this.UnameBox_Leave);
             // 
             // passBox
             // 
@@ -144,8 +143,8 @@
             this.passBox.Size = new System.Drawing.Size(337, 19);
             this.passBox.TabIndex = 10;
             this.passBox.UseSystemPasswordChar = true;
-            this.passBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox2_MouseClick);
-            this.passBox.MouseEnter += new System.EventHandler(this.textBox2_MouseEnter);
+            this.passBox.Enter += new System.EventHandler(this.PassBox_Enter);
+            this.passBox.Leave += new System.EventHandler(this.PassBox_Leave);
             // 
             // close
             // 
@@ -155,12 +154,12 @@
             this.close.Dock = System.Windows.Forms.DockStyle.Right;
             this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
             this.close.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.close.Location = new System.Drawing.Point(749, 0);
+            this.close.Location = new System.Drawing.Point(745, 0);
             this.close.Name = "close";
-            this.close.Padding = new System.Windows.Forms.Padding(10);
-            this.close.Size = new System.Drawing.Size(51, 49);
+            this.close.Padding = new System.Windows.Forms.Padding(15);
+            this.close.Size = new System.Drawing.Size(55, 59);
             this.close.TabIndex = 11;
-            this.close.Text = "X";
+            this.close.Text = "x";
             this.close.Click += new System.EventHandler(this.label1_Click_1);
             this.close.MouseLeave += new System.EventHandler(this.close_MouseLeave);
             this.close.MouseHover += new System.EventHandler(this.close_MouseHover);
@@ -171,12 +170,13 @@
             this.lupapass.BackColor = System.Drawing.Color.Transparent;
             this.lupapass.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lupapass.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
-            this.lupapass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.lupapass.ForeColor = System.Drawing.Color.Gray;
             this.lupapass.Location = new System.Drawing.Point(400, 351);
             this.lupapass.Name = "lupapass";
-            this.lupapass.Size = new System.Drawing.Size(95, 13);
+            this.lupapass.Size = new System.Drawing.Size(99, 13);
             this.lupapass.TabIndex = 12;
-            this.lupapass.Text = "lupa password?";
+            this.lupapass.Text = "Lupa password?";
+            this.lupapass.Click += new System.EventHandler(this.Lupapass_Click);
             this.lupapass.MouseLeave += new System.EventHandler(this.lupapass_MouseLeave);
             this.lupapass.MouseHover += new System.EventHandler(this.lupapass_MouseHover);
             // 
@@ -186,12 +186,12 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.label1.ForeColor = System.Drawing.Color.Gray;
             this.label1.Location = new System.Drawing.Point(400, 384);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 13);
+            this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 13;
-            this.label1.Text = "register";
+            this.label1.Text = "Register";
             this.label1.Click += new System.EventHandler(this.label1_Click_2);
             this.label1.MouseLeave += new System.EventHandler(this.label1_MouseLeave);
             this.label1.MouseHover += new System.EventHandler(this.label1_MouseHover);
@@ -215,12 +215,26 @@
             this.roundButton1.MouseLeave += new System.EventHandler(this.roundButton1_MouseLeave);
             this.roundButton1.MouseHover += new System.EventHandler(this.roundButton1_MouseHover);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
+            this.label2.Location = new System.Drawing.Point(636, 87);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(123, 46);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Login";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 530);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lupapass);
             this.Controls.Add(this.close);
@@ -234,10 +248,10 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "Hai! Produktif";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -260,6 +274,7 @@
         private System.Windows.Forms.Label close;
         private System.Windows.Forms.Label lupapass;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

@@ -27,12 +27,7 @@ namespace LoginCobaCoba
         [Column(TypeName = "date")]
         public DateTime Date { get; set; }
 
-        [Required]
-        [StringLength(40)]
-        public string Note { get; set; }
-
-        [Required]
         [StringLength(10)]
-        public string Status { get; set; }
+        public string Minat { get; set; }
     }
 }

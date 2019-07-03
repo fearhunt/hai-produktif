@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoadMore));
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel23 = new System.Windows.Forms.Panel();
             this.button22 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -181,6 +182,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
+            this.panel3.Controls.Add(this.panel23);
             this.panel3.Controls.Add(this.button22);
             this.panel3.Controls.Add(this.button23);
             this.panel3.Controls.Add(this.button6);
@@ -197,6 +199,16 @@
             this.panel3.Padding = new System.Windows.Forms.Padding(0, 30, 0, 0);
             this.panel3.Size = new System.Drawing.Size(200, 513);
             this.panel3.TabIndex = 4;
+            // 
+            // panel23
+            // 
+            this.panel23.BackColor = System.Drawing.Color.White;
+            this.panel23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel23.BackgroundImage")));
+            this.panel23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel23.Location = new System.Drawing.Point(190, 223);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(10, 50);
+            this.panel23.TabIndex = 58;
             // 
             // button22
             // 
@@ -235,6 +247,7 @@
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.Dock = System.Windows.Forms.DockStyle.Top;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -254,6 +267,7 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.Dock = System.Windows.Forms.DockStyle.Top;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -272,7 +286,8 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.DimGray;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Dock = System.Windows.Forms.DockStyle.Top;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -369,6 +384,7 @@
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Location = new System.Drawing.Point(61, 34);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(25, 17);
@@ -405,6 +421,7 @@
             this.button19.TabIndex = 53;
             this.button19.Text = "add to task";
             this.button19.UseVisualStyleBackColor = false;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // label54
             // 
@@ -446,7 +463,8 @@
             // flowLayoutPanel16
             // 
             this.flowLayoutPanel16.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel16.BackgroundImage")));
+            this.flowLayoutPanel16.BackgroundImage = global::LoginCobaCoba.Properties.Resources._24;
+            this.flowLayoutPanel16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel16.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel16.Name = "flowLayoutPanel16";
@@ -482,6 +500,7 @@
             this.button20.TabIndex = 53;
             this.button20.Text = "add to task";
             this.button20.UseVisualStyleBackColor = false;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // label57
             // 
@@ -523,7 +542,8 @@
             // flowLayoutPanel17
             // 
             this.flowLayoutPanel17.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel17.BackgroundImage")));
+            this.flowLayoutPanel17.BackgroundImage = global::LoginCobaCoba.Properties.Resources._19;
+            this.flowLayoutPanel17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel17.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel17.Name = "flowLayoutPanel17";
@@ -559,6 +579,7 @@
             this.button21.TabIndex = 53;
             this.button21.Text = "add to task";
             this.button21.UseVisualStyleBackColor = false;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // label60
             // 
@@ -600,7 +621,8 @@
             // flowLayoutPanel18
             // 
             this.flowLayoutPanel18.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel18.BackgroundImage")));
+            this.flowLayoutPanel18.BackgroundImage = global::LoginCobaCoba.Properties.Resources._23;
+            this.flowLayoutPanel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel18.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel18.Name = "flowLayoutPanel18";
@@ -650,6 +672,7 @@
             this.button16.TabIndex = 53;
             this.button16.Text = "add to task";
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // label43
             // 
@@ -691,7 +714,8 @@
             // flowLayoutPanel13
             // 
             this.flowLayoutPanel13.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel13.BackgroundImage")));
+            this.flowLayoutPanel13.BackgroundImage = global::LoginCobaCoba.Properties.Resources._21;
+            this.flowLayoutPanel13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel13.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel13.Name = "flowLayoutPanel13";
@@ -727,6 +751,7 @@
             this.button17.TabIndex = 53;
             this.button17.Text = "add to task";
             this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // label46
             // 
@@ -768,7 +793,8 @@
             // flowLayoutPanel14
             // 
             this.flowLayoutPanel14.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel14.BackgroundImage")));
+            this.flowLayoutPanel14.BackgroundImage = global::LoginCobaCoba.Properties.Resources._22;
+            this.flowLayoutPanel14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel14.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel14.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel14.Name = "flowLayoutPanel14";
@@ -804,6 +830,7 @@
             this.button18.TabIndex = 53;
             this.button18.Text = "add to task";
             this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // label49
             // 
@@ -845,7 +872,8 @@
             // flowLayoutPanel15
             // 
             this.flowLayoutPanel15.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel15.BackgroundImage")));
+            this.flowLayoutPanel15.BackgroundImage = global::LoginCobaCoba.Properties.Resources._20;
+            this.flowLayoutPanel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel15.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel15.Name = "flowLayoutPanel15";
@@ -881,6 +909,7 @@
             this.button13.TabIndex = 53;
             this.button13.Text = "add to task";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // label34
             // 
@@ -922,7 +951,8 @@
             // flowLayoutPanel10
             // 
             this.flowLayoutPanel10.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel10.BackgroundImage")));
+            this.flowLayoutPanel10.BackgroundImage = global::LoginCobaCoba.Properties.Resources._33;
+            this.flowLayoutPanel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel10.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel10.Name = "flowLayoutPanel10";
@@ -958,6 +988,7 @@
             this.button14.TabIndex = 53;
             this.button14.Text = "add to task";
             this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // label37
             // 
@@ -999,7 +1030,8 @@
             // flowLayoutPanel11
             // 
             this.flowLayoutPanel11.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel11.BackgroundImage")));
+            this.flowLayoutPanel11.BackgroundImage = global::LoginCobaCoba.Properties.Resources._32;
+            this.flowLayoutPanel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel11.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel11.Name = "flowLayoutPanel11";
@@ -1035,6 +1067,7 @@
             this.button15.TabIndex = 53;
             this.button15.Text = "add to task";
             this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // label40
             // 
@@ -1076,7 +1109,8 @@
             // flowLayoutPanel12
             // 
             this.flowLayoutPanel12.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel12.BackgroundImage")));
+            this.flowLayoutPanel12.BackgroundImage = global::LoginCobaCoba.Properties.Resources._31;
+            this.flowLayoutPanel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel12.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel12.Name = "flowLayoutPanel12";
@@ -1126,6 +1160,7 @@
             this.button7.TabIndex = 53;
             this.button7.Text = "add to task";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label22
             // 
@@ -1167,7 +1202,8 @@
             // flowLayoutPanel4
             // 
             this.flowLayoutPanel4.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel4.BackgroundImage")));
+            this.flowLayoutPanel4.BackgroundImage = global::LoginCobaCoba.Properties.Resources._35;
+            this.flowLayoutPanel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel4.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
@@ -1203,6 +1239,7 @@
             this.button11.TabIndex = 53;
             this.button11.Text = "add to task";
             this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // label25
             // 
@@ -1244,7 +1281,8 @@
             // flowLayoutPanel7
             // 
             this.flowLayoutPanel7.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel7.BackgroundImage")));
+            this.flowLayoutPanel7.BackgroundImage = global::LoginCobaCoba.Properties.Resources._34;
+            this.flowLayoutPanel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel7.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel7.Name = "flowLayoutPanel7";
@@ -1280,6 +1318,7 @@
             this.button12.TabIndex = 53;
             this.button12.Text = "add to task";
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // label28
             // 
@@ -1321,7 +1360,8 @@
             // flowLayoutPanel9
             // 
             this.flowLayoutPanel9.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel9.BackgroundImage")));
+            this.flowLayoutPanel9.BackgroundImage = global::LoginCobaCoba.Properties.Resources._36;
+            this.flowLayoutPanel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel9.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel9.Name = "flowLayoutPanel9";
@@ -1334,7 +1374,7 @@
             this.panel9.Controls.Add(this.textBox1);
             this.panel9.Location = new System.Drawing.Point(61, 58);
             this.panel9.Name = "panel9";
-            this.panel9.Padding = new System.Windows.Forms.Padding(5);
+            this.panel9.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.panel9.Size = new System.Drawing.Size(500, 24);
             this.panel9.TabIndex = 93;
             // 
@@ -1388,6 +1428,7 @@
             this.button1.TabIndex = 53;
             this.button1.Text = "add to task";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -1429,7 +1470,8 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel1.BackgroundImage")));
+            this.flowLayoutPanel1.BackgroundImage = global::LoginCobaCoba.Properties.Resources._29;
+            this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -1465,6 +1507,7 @@
             this.button2.TabIndex = 53;
             this.button2.Text = "add to task";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label13
             // 
@@ -1506,7 +1549,8 @@
             // flowLayoutPanel2
             // 
             this.flowLayoutPanel2.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel2.BackgroundImage")));
+            this.flowLayoutPanel2.BackgroundImage = global::LoginCobaCoba.Properties.Resources._30;
+            this.flowLayoutPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
@@ -1542,6 +1586,7 @@
             this.button3.TabIndex = 53;
             this.button3.Text = "add to task";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label19
             // 
@@ -1583,7 +1628,8 @@
             // flowLayoutPanel3
             // 
             this.flowLayoutPanel3.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel3.BackgroundImage")));
+            this.flowLayoutPanel3.BackgroundImage = global::LoginCobaCoba.Properties.Resources._27;
+            this.flowLayoutPanel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel3.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
@@ -1619,6 +1665,7 @@
             this.button10.TabIndex = 53;
             this.button10.Text = "add to task";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // label10
             // 
@@ -1660,7 +1707,8 @@
             // flowLayoutPanel6
             // 
             this.flowLayoutPanel6.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel6.BackgroundImage")));
+            this.flowLayoutPanel6.BackgroundImage = global::LoginCobaCoba.Properties.Resources._28;
+            this.flowLayoutPanel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel6.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel6.Name = "flowLayoutPanel6";
@@ -1696,6 +1744,7 @@
             this.button9.TabIndex = 53;
             this.button9.Text = "add to task";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // label16
             // 
@@ -1737,7 +1786,8 @@
             // flowLayoutPanel8
             // 
             this.flowLayoutPanel8.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel8.BackgroundImage")));
+            this.flowLayoutPanel8.BackgroundImage = global::LoginCobaCoba.Properties.Resources._25;
+            this.flowLayoutPanel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel8.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel8.Name = "flowLayoutPanel8";
@@ -1773,6 +1823,7 @@
             this.button8.TabIndex = 53;
             this.button8.Text = "add to task";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // label9
             // 
@@ -1814,7 +1865,8 @@
             // flowLayoutPanel5
             // 
             this.flowLayoutPanel5.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel5.BackgroundImage")));
+            this.flowLayoutPanel5.BackgroundImage = global::LoginCobaCoba.Properties.Resources._26;
+            this.flowLayoutPanel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.flowLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel5.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel5.Name = "flowLayoutPanel5";
@@ -1844,9 +1896,10 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "LoadMore";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form9";
+            this.Text = "Hai! Produktif | Load More";
             this.panel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -2020,5 +2073,6 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel panel23;
     }
 }

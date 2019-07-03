@@ -54,6 +54,9 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="GemBox.Email, Version=13.0.35.1039, Culture=neutral, PublicKeyToken=b1b72c69714d4847, processorArchitecture=MSIL">
+      <HintPath>..\packages\GemBox.Email.13.0.0.1039\lib\net35\GemBox.Email.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -79,13 +82,27 @@
   <ItemGroup>
     <Compile Include="Akun.cs" />
     <Compile Include="Data.cs" />
+    <Compile Include="DataTasks.cs" />
     <Compile Include="DBModel.cs" />
+    <Compile Include="EditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForm.Designer.cs">
+      <DependentUpon>EditForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Event.cs" />
+    <Compile Include="Experience.cs" />
     <Compile Include="FormEvent.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormEvent.designer.cs">
       <DependentUpon>FormEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GantiPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GantiPassword.Designer.cs">
+      <DependentUpon>GantiPassword.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -101,6 +118,25 @@
       <DependentUpon>FormLomba.cs</DependentUpon>
     </Compile>
     <Compile Include="Lomba.cs" />
+    <Compile Include="Notes.cs" />
+    <Compile Include="ProfileEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfileEditor.Designer.cs">
+      <DependentUpon>ProfileEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SkillBisnis.cs" />
+    <Compile Include="SkillDesign.cs" />
+    <Compile Include="SkillEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SkillEditor.Designer.cs">
+      <DependentUpon>SkillEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SkillIT.cs" />
+    <Compile Include="SkillJurnalisme.cs" />
+    <Compile Include="SkillRiset.cs" />
+    <Compile Include="SkillUmum.cs" />
     <Compile Include="VerifEmail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,14 +196,26 @@
     <Compile Include="RoundButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <EmbeddedResource Include="EditForm.resx">
+      <DependentUpon>EditForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormEvent.resx">
       <DependentUpon>FormEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GantiPassword.resx">
+      <DependentUpon>GantiPassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLomba.resx">
       <DependentUpon>FormLomba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileEditor.resx">
+      <DependentUpon>ProfileEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SkillEditor.resx">
+      <DependentUpon>SkillEditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VerifEmail.resx">
       <DependentUpon>VerifEmail.cs</DependentUpon>
@@ -240,6 +288,32 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\36.png" />
+    <None Include="Resources\35.png" />
+    <None Include="Resources\34.png" />
+    <None Include="Resources\33.png" />
+    <None Include="Resources\32.png" />
+    <None Include="Resources\31.png" />
+    <None Include="Resources\30.png" />
+    <None Include="Resources\29.png" />
+    <None Include="Resources\28.png" />
+    <None Include="Resources\27.png" />
+    <None Include="Resources\26.png" />
+    <None Include="Resources\25.png" />
+    <None Include="Resources\24.png" />
+    <None Include="Resources\23.png" />
+    <None Include="Resources\22.png" />
+    <None Include="Resources\21.png" />
+    <None Include="Resources\20.png" />
+    <None Include="Resources\19.png" />
+    <None Include="Resources\Resume5.png" />
+    <None Include="Resources\Resume4.png" />
+    <None Include="Resources\Resume3.png" />
+    <None Include="Resources\Resume2.png" />
+    <None Include="Resources\Resume1.png" />
+    <None Include="Resources\BACK3.png" />
+    <None Include="Resources\BACK2.png" />
+    <None Include="Resources\BACK1.png" />
     <None Include="Resources\18.png" />
     <None Include="Resources\17.png" />
     <None Include="Resources\16.png" />
